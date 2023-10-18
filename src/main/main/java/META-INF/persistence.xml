@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="testJPA">
+		<class>jpa.Lieferant</class>
+		
+    <properties>
+      <property name="javax.persistence.jdbc.url"
+                value="jdbc:oracle:thin:@10.0.107.20:1521:BSDB" />
+      <property name="javax.persistence.jdbc.user" value="DBU_WS21_?" />
+      <property name="javax.persistence.jdbc.password" value="DBU_WS21_?" />
+    </properties>
+	</persistence-unit>
+</persistence>
